@@ -12,7 +12,7 @@ window = sg.Window('電卓',layout)
 while True:
 
     event, values = window.read()
-    # ユーザーが終了したいのか、ウィンドウが閉じられたかどうかを確認してください
+    
     if event == sg.WINDOW_CLOSED:
         break
 
